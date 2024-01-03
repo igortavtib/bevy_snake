@@ -13,7 +13,7 @@ pub struct SnakeHead {
 }
 
 #[derive(Component)]
-struct SnakeSegment;
+pub struct SnakeSegment;
 
 impl Default for SnakeHead {
     fn default() -> Self {
